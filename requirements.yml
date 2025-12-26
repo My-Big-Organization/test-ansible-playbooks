@@ -1,0 +1,20 @@
+---
+collections:
+  - name: amazon.aws
+    version: "7.0.0"
+  - name: community.general
+    version: "8.1.0"
+  - name: community.docker
+    version: "3.4.11"
+  - name: kubernetes.core
+    version: "3.0.0"
+  - name: ansible.posix
+    version: "1.5.4"
+
+roles:
+  - src: geerlingguy.docker
+    version: "6.1.0"
+  - src: geerlingguy.postgresql
+    version: "3.4.2"
+  - src: geerlingguy.nginx
+    version: "3.2.0"
